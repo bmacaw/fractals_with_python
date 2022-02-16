@@ -33,6 +33,7 @@ tree = turtle.Turtle()
 tree.hideturtle()
 tree.setheading(90)
 tree.color('green')
+tree.speed(0)
 
 build_tree(tree, 50, 5, 30)
 turtle.mainloop()
