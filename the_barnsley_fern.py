@@ -31,5 +31,5 @@ for i in range(npts):
     # Set this point of the array to 1 to mark a point in the fern
     aimg[iy, ix] = 1
 
-plt.imshow(aimg[::-1,:], cmap=cm.Greens)
+plt.imshow(aimg[::-1, :], cmap=cm.Greens)
 plt.show()
